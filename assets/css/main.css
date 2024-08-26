@@ -92,6 +92,11 @@ b {
     justify-content: space-between;
 }
 
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .foot {
         flex-direction: column;
@@ -104,8 +109,8 @@ b {
 
 @media screen and (max-width: 991px) {
     .stats {
-        display: flex;
         flex-direction: column;
+        gap: 0;
     }
 }
 

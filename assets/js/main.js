@@ -124,7 +124,7 @@ $(document).ready(function () {
 
         ge.text(ges);
         if (!ges.length == 0) {
-            $('.stats').html(`<span>სიმბოლოების რაოდენობა: ${ges.length} |</span> <span>სიტყვების რაოდენობა: ${countWords(ges)}</span>`);
+            $('.stats').html(`<span>სიმბოლოების რაოდენობა: ${ges.length}</span> <span>სიტყვების რაოდენობა: ${countWords(ges)}</span>`);
         }
         else {
             $('.stats').empty();
