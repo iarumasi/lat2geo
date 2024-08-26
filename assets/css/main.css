@@ -30,6 +30,10 @@ h6 {
     justify-content: space-between;
 }
 
+.second-content p {
+    margin: 0;
+}
+
 .second-content .top-btns {
     display: flex;
     gap: 12px;
