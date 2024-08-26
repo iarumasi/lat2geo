@@ -1,0 +1,25 @@
+:root {
+    --light: #eae7dc;
+    --brown: #d8c3a5;
+    --muted: #838d8a;
+    --lightred: #e98074;
+    --red: #e85a4f;
+    --accent: var(--red);
+}
+
+body {
+    font-family: "Noto Sans Georgian", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--light);
+}
+
+#root {
+    border: solid 5px var(--red);
+    padding: 20px;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+}
