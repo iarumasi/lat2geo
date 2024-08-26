@@ -12,7 +12,6 @@
 
 body {
     font-family: "Noto Sans Georgian", sans-serif;
-    font-size: 1.2rem;
     min-height: 100vh;
     /* background-color: var(--light); */
 }
@@ -81,7 +80,6 @@ textarea:focus {
 
 button {
     font-weight: 600 !important;
-    font-size: 1.2rem !important;
     max-height: 36px;
 }
 
@@ -112,13 +110,6 @@ b {
 }
 
 @media screen and (max-width: 360px) {
-
-    body,
-    .nav-tabs .nav-link,
-    button {
-        font-size: 1rem !important;
-    }
-
     .toper {
         flex-direction: column;
     }
