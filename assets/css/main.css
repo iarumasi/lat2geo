@@ -28,6 +28,7 @@ h6 {
 .second-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .second-content p {
@@ -112,7 +113,7 @@ b {
     }
 
     .foot .copyright {
-        margin-top: var(--margin);
+        margin: var(--margin) 0;
     }
 }
 
