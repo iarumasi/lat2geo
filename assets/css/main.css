@@ -4,22 +4,126 @@
     --muted: #838d8a;
     --lightred: #e98074;
     --red: #e85a4f;
-    --accent: var(--red);
+
+    --radius: 8px;
+    --margin: 15px;
+    --border-color: rgba(0, 0, 0, 0.2);
 }
 
 body {
     font-family: "Noto Sans Georgian", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.2rem;
     min-height: 100vh;
-    background-color: var(--light);
+    /* background-color: var(--light); */
 }
 
-#root {
-    border: solid 5px var(--red);
-    padding: 20px;
-    border-radius: 20px;
-    width: 700px;
-    height: 500px;
+h1 {
+    font-weight: 600 !important;
+}
+
+.second-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-content .top-btns {
+    display: flex;
+    gap: 12px;
+}
+
+.second-content .btn {
+    display: flex;
+    gap: 10px;
+
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    border-radius: var(--radius);
+    padding: 5px 10px;
+    margin-top: var(--margin);
+    border: solid 1px var(--border-color);
+    transition: 0.5s;
+}
+
+textarea:focus {
+    border: solid 1px rgba(0, 0, 0, 0.8);
+    outline: none;
+}
+
+.ge {
+    cursor: text;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.ge .copy {
+    opacity: 0.5 !important;
+}
+
+.copy-parent {
+    position: relative;
+}
+
+.copy {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    opacity: 0.1;
+    transition: 0.3s;
+}
+
+.copy-parent:hover .copy {
+    opacity: 1 !important;
+}
+
+button {
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    max-height: 36px;
+}
+
+b {
+    margin-right: var(--margin);
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .foot {
+        flex-direction: column;
+    }
+
+    .foot .copyright {
+        margin-top: var(--margin);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .stats {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    body,
+    .nav-tabs .nav-link,
+    button {
+        font-size: 1rem !important;
+    }
+
+    .toper {
+        flex-direction: column;
+    }
+
+    .top-btns {
+        text-align: right;
+    }
 }
