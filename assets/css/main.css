@@ -73,7 +73,7 @@ textarea:focus {
 }
 
 .text-3{
-    color: #333333;
+    color: #333333 !important;
 }
 
 .copy-parent {
