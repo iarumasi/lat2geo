@@ -4,9 +4,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>ლათინურიდან ქართულზე კონვერტაცია</title>
+    <title>Lat2Geo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- CSS -->
+    <link rel="icon" href="./assets/img/g.png">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap"
@@ -19,22 +20,30 @@
     <div class="container">
         <h2 class="mb-3">ლათინურიდან ქართულზე კონვერტაცია</h2>
         <div class="second-content">
-            <p>სცადე: laTinuridan qarTulze konvertacia ⬇️</p>
+            <p>laTinuridan qarTulze konvertacia</p>
             <div class="top-btns">
-                <button id="enters" class="btn btn-outline-primary"><i class="material-symbols-outlined">
+                <button id="enters" class="btn btn-outline-dark"><i class="material-symbols-outlined">
                         keyboard_return
                     </i></button>
-                <button id="spaces" class="btn btn-outline-primary"><i class="material-symbols-outlined">
+                <button id="spaces" class="btn btn-outline-dark"><i class="material-symbols-outlined">
                         space_bar
                     </i></button>
             </div>
         </div>
         <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade show active" id="all" role="tabpanel">
-                <textarea class="la txti" placeholder="დაწერე აქ.."></textarea>
-                <div class="copy-parent txti">
-                    <textarea class="ge" disabled></textarea>
-                    <button class="copy btn btn-dark">კოპირება</button>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="txt-par">
+                            <textarea class="la txti" placeholder="დაწერე ლათინურად.."></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="txt-par copy-parent txti">
+                            <textarea class="ge" disabled></textarea>
+                            <button class="copy btn btn-dark">კოპირება</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
