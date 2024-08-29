@@ -72,6 +72,10 @@ textarea:focus {
     opacity: 0.5 !important;
 }
 
+.text-3{
+    color: #333333;
+}
+
 .copy-parent {
     position: relative;
 }
