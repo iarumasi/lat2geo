@@ -72,7 +72,7 @@ textarea:focus {
     opacity: 0.5 !important;
 }
 
-.text-3{
+textarea:disabled {
     color: #333333 !important;
 }
 
