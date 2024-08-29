@@ -133,3 +133,11 @@ b {
         text-align: right;
     }
 }
+
+a {
+    color: #3e3f3a;
+}
+
+a:hover {
+    color: #000;
+}
