@@ -1,4 +1,4 @@
-# ლათინურიდან ქართულზე კონვერტაცია (lat2geo)
+# ლათინურიდან ქართულზე კონვერტაცია (lat2geo) 🇬🇪
 
 A simple and lightweight web application that converts Latin characters into Georgian script. This project is aimed at helping users quickly and accurately convert Latin-based text to Georgian.
 
