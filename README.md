@@ -14,5 +14,8 @@ A simple and lightweight web application that converts Latin characters into Geo
 - **JavaScript**: For handling the conversion logic.
   
 ## Usage
-To use the app, just go to: iarumasi.github.io/lat2geo
+To use the app, just go to: [iarumasi.github.io/lat2geo](https://iarumasi.github.io/lat2geo)
 
+1. Enter your Latin text in the input field.
+2. Click "Convert" to get the Georgian version.
+3. Copy and use the converted text as needed!
