@@ -14,6 +14,5 @@ A simple and lightweight web application that converts Latin characters into Geo
 - **JavaScript**: For handling the conversion logic.
   
 ## Usage
-To use the app, simply clone the repository or download the source code:
-```bash
-git clone https://github.com/yourusername/lat2geo.git
+To use the app, just go to: iarumasi.github.io/lat2geo
+
